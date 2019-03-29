@@ -3,8 +3,13 @@ const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
-const url = 'mongodb+srv://usuario_admin:<password>@cluster0-zurhs.mongodb.net/test?retryWrites=true';
-const options = { reconnectTries: Number.MAX_VALUE, reconnectInterval: 500, poolSize: 5, useNewUrlParser: true };
+const url = 'mongodb+srv://usuario_admin:Tiger@XCX800@cluster0-zurhs.mongodb.net/test?retryWrites=true';
+const options = {
+    reconnectTries: Number.MAX_VALUE,
+    reconnectInterval: 500,
+    poolSize: 5,
+    useNewUrlParser: true
+};
 
 mongoose.connect(url, options);
 mongoose.set('useCreateIndex', true);
