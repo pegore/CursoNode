@@ -1,0 +1,22 @@
+{
+  "name": "cursonode",
+  "version": "1.0.0",
+  "description": "CursoNode",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pegore/CursoNode.git"
+  },
+  "author": "Lino Pegoretti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pegore/CursoNode/issues"
+  },
+  "homepage": "https://github.com/pegore/CursoNode#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
